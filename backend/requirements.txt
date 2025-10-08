@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+python-dotenv
+gunicorn
+flask-jwt-extended
+werkzeug
+flask-cors
+bcrypt
+Flask-Mail==0.9.1
