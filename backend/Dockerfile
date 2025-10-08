@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 5000
 
 # Run the Flask app using Gunicorn with your app factory
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "backend.app:create_app()"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:create_app()"]
